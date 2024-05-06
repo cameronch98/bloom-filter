@@ -22,6 +22,15 @@ Now that the virtual environment is enabled in the terminal, we need to install 
 pip install -r requirements.txt
 ```
 
+Next, the rockyou.txt file needs to be fetched as it is managed with git large file storage (Git LFS). After installing git lfs, we can use the following commands:
+
+```
+git lfs fetch
+```
+```
+git lfs checkout
+```
+
 To run the bloom filter experiment, we can enter one of the following:
 
 ```
